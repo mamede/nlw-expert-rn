@@ -3,8 +3,8 @@ import { View, FlatList } from 'react-native';
 
 import { CATEGORIES } from '@/utils/data/products';
 
-import { Header } from '@/components/header';
-import { CategoryButton } from '@/components/category-button';
+import { Header } from '@/app/components/header';
+import { CategoryButton } from '@/app/components/category-button';
 
 export default function Home() {
   const [category, setCategory] = useState(CATEGORIES[0]);
